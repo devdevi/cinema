@@ -1,0 +1,207 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 16px;
+	padding-top: 55px;
+	font-weight: 100;
+}
+header{
+	background-color:#fff;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+.menu{
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.menu .logo{
+	display: inline-block;
+	margin-right: 1em;
+}
+.menu .logo img{
+	width: 40%;
+	overflow: hidden;
+}
+.menu .logo .btn-menu{
+	display: none;
+	color: white;
+	font-size: 1em;
+}
+
+.menu .logo a{
+	text-decoration: none;
+	display: inline-block;
+	color: gray;
+	vertical-align: center;
+	padding: 0;
+	margin: 0;
+}
+.menu .enlaces{
+	display: inline-block;
+	color: #CFCAC7;
+	text-align: left;
+	border: .5px solid #CFCAC7;
+	border-radius: 2px;
+	padding: .5em 0;
+	padding-right: 0;
+}
+.menu .enlaces i{
+	float: right;
+	padding-right: .4em;
+}
+.menu .enlaces input{
+	border: none;
+	color: black;
+	display: inline-block;
+}
+
+/*efecto de menu*/
+.headroom{
+	transform: transform .7s ease;
+}
+.headroom--pinned{
+	transform: translateY(0%);
+}
+.headroom--unpinned{
+	transform:  translateY(-100%);
+}
+
+
+/*Estilos extr*/
+.firsImg{
+	background-image: url('../img/banner.jpg');
+	background-size: cover;
+	background-position: 50%;
+	height: 100vh;
+}
+.firsImg{
+	padding: .2em 0;
+}
+.onePlace{
+	padding-top: 5em;
+	padding-left: 45em;
+	padding-right: 4em;
+}
+
+.moviePic, .buyTicket{
+	margin: 1em 2em;
+}
+.onePlace h1{
+	color: #f2f2f2;
+	text-transform: uppercase;
+	font-size: 3em;
+}
+hr{
+	margin: 2em;
+	border: .5px solid #A3A35D;
+}
+.moveOne h5 , .moveOne p  {
+	color: white;
+	padding: .5em;
+	font-weight: 100;
+}
+ .moveOne p{
+ 	font-size: 12px;
+ }
+
+.moveOne button{
+	background-color: transparent;
+	border: 2px solid #3BCF68;
+	border-radius: 5%;
+	color: #3BCF68;
+	padding: .5em 1em;
+}
+.moveOne .trailer{
+	background-color:#DFB636;
+	border: none;
+	border-radius: 2px;
+	color: #fff;
+	padding: .5em 1em;
+	margin: 1em;
+}
+.moveOne .ticket {
+	background-color:#BB7B29;
+	border: none;
+	border-radius: 2px;
+	color: #fff;
+	padding: .5em 1em;
+	margin: 1em;
+}
+.yellow{
+	background-color: #DFB636;
+	align-items: center;
+}
+.yellow img{
+	width: 95%;
+}
+.video{
+	margin:0;
+	padding: 0;
+}
+.buyTxt h4{
+	color: #E4DFDC;
+	padding: 1em 0; 
+}
+.buyTxt h6{
+	color: #BB7B29;
+	padding: 2em 0; 
+	font-size: 10px;
+	font-weight: 100;
+}
+.buyTxt .ticket{
+	background-color:#BB7B29;
+	border: none;
+	border-radius: 2px;
+	color: #fff;
+	padding: 2em 1em;
+	margin: 1em 0;
+}
+.infoTicket h2{
+	padding: 1em 0;
+	color: #E4DFDC;
+}
+.infoTicket p{
+	padding: .2em 0;
+	color: #E4DFDC;
+	font-weight: 100;
+	text-align: justify;
+}
+.infoTicket a{
+	padding: .2em 0;
+	color: #DFB636;
+	text-decoration: none;
+}
+.footer{
+	background-color: #F3F3F3;
+	color: #CFCAC7;
+	padding-right: 50em;
+	padding-left: 1em;
+}
+
+.footerText{
+	margin: .5em;
+	
+}
+.footerText p{
+	font-size: 10px;
+}
+.footerText .indonesia{
+	padding-top: 2em;
+	padding-bottom: 2em;
+	font-size: 10px;
+}
+boton; #BB7B29
+#DFB636;
+#3BCF68;
+#E4DFDC
+
