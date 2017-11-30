@@ -88,9 +88,9 @@ header{
 	padding: .2em 0;
 }
 .onePlace{
-	padding-top: 5em;
-	padding-left: 45em;
-	padding-right: 4em;
+	padding-top: 5%;
+	padding-left: 55%;
+	padding-right: 3%;
 }
 
 .moviePic, .buyTicket{
@@ -181,11 +181,15 @@ hr{
 	color: #DFB636;
 	text-decoration: none;
 }
+.moviePic img{
+         width: 100%;
+         height: 50%;
+ }
 .footer{
 	background-color: #F3F3F3;
 	color: #CFCAC7;
-	padding-right: 50em;
-	padding-left: 1em;
+	padding-right: 55%;
+	padding-left: 2%;
 }
 
 .footerText{
@@ -200,8 +204,4 @@ hr{
 	padding-bottom: 2em;
 	font-size: 10px;
 }
-boton; #BB7B29
-#DFB636;
-#3BCF68;
-#E4DFDC
 

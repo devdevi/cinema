@@ -13,12 +13,12 @@ $(function(){
 //esta en un tamaño menos a 700px
 	if(ancho < 700){
 		enlaces.hide();
-		icono.addClass('fa-bars');
+		icono.addClass('fa-search');
 
 	}
 	btnMenu.on('click', function(e){
 		enlaces.slideToggle();
-		icono.toggleClass('fa-bars');
+		icono.toggleClass('fa-search');
 		icono.toggleClass('fa-times');
 
 	});
@@ -29,11 +29,11 @@ $(function(){
 		if ($(this).width() > 700){
 			enlaces.show();
 			icono.addClass('fa-times');
-			icono.addClass('fa-bars');
+			icono.addClass('fa-search');
 		} else{
 			enlaces.hide();
 			//reiniciamos los iconos
-			icono.addClass('fa-bars');
+			icono.addClass('fa-search');
 			icono.addClass('fa-times');
 		}
 
